@@ -1,4 +1,4 @@
-node('master') {
+node('Dev') {
     stage('ContinuousDownload_master') 
     {
      git 'https://github.com/ArkLearnersEdge/maven.git'
