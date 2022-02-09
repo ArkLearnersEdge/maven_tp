@@ -7,5 +7,4 @@ node('Dev') {
     {
      sh 'mvn package'
     }
-   
-}
+  }
