@@ -1,5 +1,5 @@
-node('Built-In Node') {
-    stage('ContinuousDownload') 
+node('master') {
+    stage('ContinuousDownload_master') 
     {
      git 'https://github.com/ArkLearnersEdge/maven.git'
     }
