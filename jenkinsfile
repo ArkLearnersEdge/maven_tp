@@ -1,11 +1,10 @@
-node('Dev') {
-    stage('ContinuousDownload') 
+node('Built-In Node') {
+    stage('ContinuousDownload_loans') 
     {
      git 'https://github.com/ArkLearnersEdge/maven.git'
     }
-    stage('ContinuousBuild') 
+    stage('ContinuousBuild_loans') 
     {
      sh 'mvn package'
-    }   
-    
-}
+    }
+    }
